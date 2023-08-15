@@ -1,0 +1,1 @@
+So this is a basic tcp client that can access servers as a tcp server giving a specific service as a (email service/web service...etc)

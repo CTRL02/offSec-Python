@@ -18,6 +18,7 @@ bind_ip = "127.0.0.1"
 bind_port = 9999
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+#so i can use the addresses again after i terminate the server
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 server.bind((bind_ip, bind_port))
 server.listen(2)

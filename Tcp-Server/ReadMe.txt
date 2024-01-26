@@ -1,5 +1,5 @@
 So a basic tcp server that can handle requests and send an Ack/response to the client ex:(a email server and a user requesting a certain email)...
-
+Also it runs a thread per client to handle many clients at the same time...
 
 
 The IP address you provide for your TCP server depends on the context and purpose of your server. Here are a few scenarios and the types of IP addresses you might use:
